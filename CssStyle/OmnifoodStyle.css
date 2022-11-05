@@ -57,61 +57,175 @@ Medium: 11px
 */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 16px;
+  font-size: 100%;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  color: #333;
+  line-height: 1.3;
 }
 
 .header {
-    background-color: #fdf2e9;
-    display: flex;
-    justify-content: space-between;
-    padding: 2.5rem 3.3rem;
-    align-items: center;
+  background-color: #fdf2e9;
+  display: flex;
+  justify-content: space-between;
+  padding: 2.5rem 3.3rem;
+  align-items: center;
 }
 
 .omnifood-logo img {
-    width: 11.3rem;
-    cursor: pointer;
+  width: 11.3rem;
+  cursor: pointer;
 }
 
 .nav-bar {
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
-    gap: 3.5rem;
-    list-style-type: none;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 3.5rem;
+  list-style-type: none;
 }
 
 .nav-link {
-    text-decoration: none;
-    color: #000000;
-    font-family: 'Rubik', sans-serif;
-    font-weight: 500;
-    font-size: 1.16rem;
-    transition: all .3s;
-    
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.16rem;
+  transition: all 0.3s;
 }
 
 .nav-link:hover {
-    color: #E67E22;
+  color: #e67e22;
 }
 
+/* BUG Try for Free button, shows color orange on state hover */
 .nav-link:focus {
-    box-shadow: 0 0 0 .55rem #ecae78;
+  box-shadow: 0 0 0 0.55rem #ecae78;
 }
 
-#btn {
-    background-color: #E67E22;
-    color: #FFFFFF;
-    padding: .7rem 1.75rem;
-    border-radius: 11px;
+/* Badelthom men id l class bach na9der na5dem bihom ou nmodify fach na7taj */
+.btn {
+  background-color: #e67e22;
+  color: #ffffff;
+  padding: 0.7rem 1.75rem;
+  border-radius: 11px;
 }
 
-#btn:hover {
-    background-color: #cf711f;
+.btn:hover {
+  background-color: #cf711f;
 }
+
+/* -------- Hero Section ----------- */
+
+.section-hero {
+  padding: 4.5rem 0;
+  background-color: #fdf2e9;
+}
+
+.section-hero__container {
+  margin: 0 auto;
+  max-width: 76rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 4.5rem;
+}
+
+/* Default h1 element style {Change it if you want !} */
+h1 {
+  font-size: 3.3rem;
+  letter-spacing: -0.5px;
+  line-height: 1.1;
+  margin-bottom: 1.8rem;
+}
+
+/* Default P element style {Change it if you want !} */
+p {
+  font-size: 1.3rem;
+  line-height: 1.7;
+  color: #555;
+}
+
+.app-description {
+  font-weight: 400;
+  margin-bottom: 2.8rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* All anchor elements will get this style */
+a:focus {
+  box-shadow: 0 0 0 0.55rem #ecae78;
+}
+
+.btn__cta,
+.btn__secondary {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 1.2rem;
+  border: none;
+  font-weight: 600;
+  transition: all 0.3s;
+  padding: 0.8rem 1.9rem;
+}
+
+.btn__cta {
+  margin-right: 1.05rem;
+}
+
+.btn__secondary {
+  background-color: #fff;
+  color: #555;
+}
+
+.btn__secondary:hover {
+  box-shadow: inset 0 0 0 3px #fff;
+  background-color: transparent;
+}
+
+.delivered__meals {
+  display: flex;
+  margin-top: 4.5rem;
+  align-items: center;
+  gap: 1rem;
+}
+
+.imgs__gallery {
+  display: flex;
+}
+
+.imgs__gallery img {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  border: 3px solid #fdf2e9;
+  margin-right: -1rem;
+}
+
+.imgs__gallery img:last-child {
+  margin: 0;
+}
+
+.delivered__amount {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.delivered__amount span {
+  color: #cf711f;
+  font-weight: 700;
+}
+
+.hero-img {
+  max-width: 35rem;
+}
+
+/* -------- Hero Section ----------- ENDS! */
