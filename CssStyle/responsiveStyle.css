@@ -1,0 +1,21 @@
+@media screen and (max-width: 81em) {
+  html {
+    font-size: 93%;
+  }
+
+  .section-hero__container {
+    /* max-width: 82rem; */
+    /* max-width: 76rem; */
+  }
+}
+
+@media screen and (max-width: 68em) {
+  html {
+    font-size: 81%;
+  }
+
+  .section-hero__container {
+    /* max-width: 82rem; */
+    /* max-width: 76rem; */
+  }
+}

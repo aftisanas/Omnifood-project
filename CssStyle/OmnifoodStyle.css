@@ -131,7 +131,8 @@ body {
 
 .section-hero__container {
   margin: 0 auto;
-  max-width: 76rem;
+  padding: 0 2rem;
+  max-width: 82rem;
   display: flex;
   justify-content: space-between;
   gap: 4.5rem;
