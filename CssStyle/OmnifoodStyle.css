@@ -230,3 +230,29 @@ a:focus {
 }
 
 /* -------- Hero Section ----------- ENDS! */
+
+/* ----------- Featured Section -----------  */
+.section-featured {
+  padding: 4rem 0 3rem 0;
+}
+.img__logos {
+  text-align: center;
+}
+.img__logos h2 {
+  color: grey;
+  font-size: 0.7rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
+.logos {
+  width: 9rem;
+  height: 2.1rem;
+  filter: brightness(0);
+  opacity: 50%;
+  text-align: center;
+  margin: 1rem;
+}
+
+/* ----------- Featured Section Ended -----------  */
