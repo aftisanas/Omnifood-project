@@ -234,9 +234,14 @@ a:focus {
 /* ----------- Featured Section -----------  */
 .section-featured {
   padding: 4rem 0 3rem 0;
+  justify-content: space-around;
 }
 .img__logos {
   text-align: center;
+}
+.img__logos img {
+  width: 10rem;
+  height: 2.4rem;
 }
 .img__logos h2 {
   color: grey;
@@ -247,8 +252,6 @@ a:focus {
   letter-spacing: 0.1rem;
 }
 .logos {
-  width: 9rem;
-  height: 2.1rem;
   filter: brightness(0);
   opacity: 50%;
   text-align: center;
