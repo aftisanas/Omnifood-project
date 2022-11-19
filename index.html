@@ -1,53 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
-    <title>
-        Omnifood — Never cook again!
-    </title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+    <title>Omnifood — Never cook again!</title>
 
     <!-- css style -->
-    <link rel="stylesheet" href="./CssStyle/OmnifoodStyle.css">
-    <link rel="stylesheet" href="./CssStyle/responsiveStyle.css">
+    <link rel="stylesheet" href="./CssStyle/OmnifoodStyle.css" />
+    <link rel="stylesheet" href="./CssStyle/responsiveStyle.css" />
 
     <!-- text font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-</head>
-<body>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/91e88c98d6.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
     <!-- header -->
     <header class="header">
-        <div class="omnifood-logo">
-            <img src="./img/omnifood-logo.png" alt="omnifood-logo" />
-        </div>
-        <nav class="nav-menu">
-            <ul class="nav-bar">
-                <li class="nav-item">
-                    <a href="#" class="nav-link">How it works</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Meals</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Testimonials</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Pricing</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link" id="btn">Try for free</a>
-                </li>
-            </ul>
-        </nav>
+      <div class="omnifood-logo">
+        <a href="#" class="omni-link">
+          <img src="./img/omnifood-logo.png" alt="omnifood-logo" />
+        </a>
+      </div>
+      <nav class="nav-menu">
+        <ul class="nav-bar">
+          <li class="nav-item">
+            <a href="#" class="nav-link">How it works</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Meals</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="btn nav-link">Try for free</a>
+          </li>
+        </ul>
+        <li class="nav-item-menu">
+          <i class="fa-solid fa-bars"></i>
+          <i class="fa-solid fa-close"></i>
+        </li>
+      </nav>
     </header>
     <!-- end header -->
+    <main>
+      <section class="section-hero">
+        <div class="section-hero__container">
+          <div class="text-side">
+            <h1>A healthy meal delivered to your door, every single day</h1>
+            <p class="app-description">
+              The smart 365-days-per-year food subscription that will make you
+              eat healthy again. Tailored to your personal tastes and
+              nutritional needs.
+            </p>
+            <a href="#" class="btn__cta btn">Start eating well</a>
+            <a href="#" class="btn__secondary btn">Learn more &darr;</a>
+            <div class="delivered__meals">
+              <div class="imgs__gallery">
+                <img src="./img/customers/customer-1.jpg" alt="customer" />
+                <img src="./img/customers/customer-2.jpg" alt="customer" />
+                <img src="./img/customers/customer-3.jpg" alt="customer" />
+                <img src="./img/customers/customer-4.jpg" alt="customer" />
+                <img src="./img/customers/customer-5.jpg" alt="customer" />
+                <img src="./img/customers/customer-6.jpg" alt="customer" />
+              </div>
+              <p class="delivered__amount">
+                <span>250,000+</span> meals delivered last year!
+              </p>
+            </div>
+          </div>
+          <div class="img-side">
+            <img class="hero-img" src="./img/hero.png" alt="woman eating" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-featured">
+        <div class="img__logos">
+          <h2>AS FEATURED IN</h2>
+          <img src=".\img\logos\techcrunch.png" class="logos" alt="" />
+          <img src=".\img\logos\business-insider.png" class="logos" alt="" />
+          <img src=".\img\logos\the-new-york-times.png" class="logos" alt="" />
+          <img src=".\img\logos\forbes.png" class="logos" alt="" />
+          <img src=".\img\logos\usa-today.png" class="logos" alt="" />
+        </div>
+      </section>
+
+      <section class="section-howItWork">
+        <div class="howItWork-container">
+          <div class="howItWork-title">
+            <p class="sub-title">
+              how it works
+            </p>
+            <h1 class="main-title">
+                Your daily dose of health in 3 simple steps
+            </h1>
+          </div>
+          <div class="howItWork-content">
+            <!-- first -->
+            <div class="howItWork-step">
+              <div class="left-side">
+                <div class="side-text">
+                  <h1 class="side-one">01</h1>
+                  <h1 class="side-title">
+                    Tell us what you like (and what not)
+                  </h1>
+                  <p class="side-text">
+                    Never again waste time thinking about what to eat! Omnifood AI will create a 100% personalized 
+                    weekly meal plan just for you. It makes sure you get all the nutrients and vitamins you need, 
+                    no matter what diet you follow!
+                  </p>
+                </div>
+              </div>
+              <div class="right-side">
+                <div class="side-phone">
+                  <img src="./img/app/app-screen-1.png" alt="..." />
+                </div>
+              </div>
+            </div>
+            <!-- second -->
+            <div class="howItWork-step second-side">
+              <div class="left-side">
+                <div class="side-phone">
+                  <img src="./img/app/app-screen-2.png" alt="..." />
+                </div>
+              </div>
+              <div class="right-side">
+                <div class="side-text">
+                  <h1 class="side-one">02</h1>
+                  <h1 class="side-title">
+                    Approve your weekly meal plan
+                  </h1>
+                  <p class="side-text">
+                    Once per week, approve the meal plan generated for you by Omnifood AI. You can change 
+                    ingredients, swap entire meals, or even add your own recipes.
+                  </p>
+                </div> 
+              </div>
+            </div>
+            <!-- third -->
+            <div class="howItWork-step">
+              <div class="left-side">
+                <div class="side-text">
+                  <h1 class="side-one">03</h1>
+                  <h1 class="side-title">
+                    Receive meals at convenient time
+                  </h1>
+                  <p class="side-text">
+                    Best chefs in town will cook your selected meal every day, and we will deliver it to your door 
+                    whenever works best for you. You can change delivery schedule and address daily!
+                  </p>
+                </div>
+              </div>
+              <div class="right-side">
+                <div class="side-phone">
+                  <img src="./img/app/app-screen-3.png" alt="..." />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <!-- JavaScript -->
     <script src="./JsFile/Main.js"></script>
-</body>
+  </body>
 </html>
