@@ -383,30 +383,31 @@ a:focus {
 /* -------- Hero Section ----------- ENDS! */
 
 /* ----------- Featured Section -----------  */
+.container {
+  max-width: 100rem;
+  padding: 0 5rem;
+  margin: 0 auto;
+}
 .section-featured {
-  padding: 4rem 0 3rem 0;
-  justify-content: space-around;
+  max-width: 120rem;
+  padding: 4rem 0 3.2rem 0;
 }
 .img__logos {
-  text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
 .img__logos img {
-  width: 10rem;
-  height: 2.4rem;
+  height: 2.1rem;
+  filter: brightness(0);
+  opacity: 50%;
 }
-.img__logos h2 {
-  color: grey;
-  font-size: 0.7rem;
+.container h2 {
+  color: #888;
+  font-size: 1rem;
   font-weight: 500;
   margin-bottom: 2rem;
   text-align: center;
   letter-spacing: 0.1rem;
-}
-.logos {
-  filter: brightness(0);
-  opacity: 50%;
-  text-align: center;
-  margin: 1rem;
 }
 
 /* ----------- Featured Section Ended -----------  */
@@ -618,3 +619,85 @@ ion-icon {
 }
 
 /* Meals Section (Ends) */
+
+/* ************ Scetion Testimonials Started ************ */
+
+.customers-img {
+  border-radius: 50%;
+  width: 3rem;
+}
+
+.section-testimonials {
+  background-color: #fdf2e9;
+  display: grid;
+  grid-gap: 1rem;
+  padding: 5.6rem 1.2rem;
+  grid-template-columns: 55fr 45fr;
+}
+.Testimonial-header {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+}
+.customers {
+  margin: 3.5rem;
+  grid-row: 1;
+}
+.gallery-imgs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 1.3rem;
+  background: #fff;
+}
+.gallery-imgs > div {
+  overflow: hidden;
+}
+.gallery-imgs > div > img {
+  width: 100%;
+  height: 100%;
+  transform: scale(1);
+  transition: all 0.4s;
+  overflow: hidden;
+}
+
+.gallery-imgs > div > img:hover {
+  transform: scale(1.1);
+}
+
+.customers-grid > div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.Testimonial-header > h2 {
+  margin-bottom: 6rem;
+}
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2.5rem;
+  row-gap: 2.5rem;
+  grid-row: 1;
+}
+.testimonials > figure > img {
+  border-radius: 50%;
+  width: 3.5rem;
+  margin-bottom: 0.5rem;
+}
+.testimonials > figure {
+  width: 15rem;
+}
+.testimonials > figure > blockquote {
+  line-height: 2;
+  font-size: 0.95rem;
+}
+.testimonials > figure > p {
+  font-size: 0.8rem;
+  color: #6f6f6f;
+}
+.heading-sec {
+  font-size: 2rem;
+  width: 30rem;
+}
+
+/* ************ Scetion Testimonials Ended ************ */

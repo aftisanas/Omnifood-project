@@ -2,6 +2,19 @@
   html {
     font-size: 93%;
   }
+  /* ************* Section Testimonials ************* */
+  .gallery-imgs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* ************* Section Testimonials Ended ************* */
+}
+
+@media screen and (max-width: 75em) {
+  /* ************* Section Testimonials ************* */
+  .testimonials {
+    padding: 9.6rem 3.2rem;
+  }
+  /* ************* Section Testimonials Ended ************* */
 }
 
 @media screen and (max-width: 68em) {
@@ -14,6 +27,16 @@
   html {
     font-size: 75%;
   }
+  /* ************* Section Testimonials ************* */
+  .section-testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-imgs {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  /* ************* Section Testimonials Ended ************* */
 
   /* ******************** hero section responsive ******************** */
   .section-hero__container {
@@ -110,6 +133,12 @@
   html {
     font-size: 68%;
   }
+  /* ************** Section Testimonials ************** */
+  .gallery-imgs {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.2rem;
+  }
+  /* ************** Section Testimonials Ended ************** */
 
   .howItWork-container {
     width: 90%;
