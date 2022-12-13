@@ -37,13 +37,13 @@
       <nav class="nav-menu">
         <ul class="nav-bar">
           <li class="nav-item">
-            <a href="#" class="nav-link">How it works</a>
+            <a href="#howItWork" class="nav-link">How it works</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Meals</a>
+            <a href="#meals" class="nav-link">Meals</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Testimonials</a>
+            <a href="#testimonials" class="nav-link">Testimonials</a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">Pricing</a>
@@ -92,7 +92,7 @@
           </div>
         </div>
       </section>
-      <section class="section-featured">
+      <section class="section-featured" id="featured">
         <div class="container">
           <h2>AS FEATURED IN</h2>
           <div class="img__logos">
@@ -104,7 +104,7 @@
           </div>
         </div>
       </section>
-      <section class="section-howItWork">
+      <section class="section-howItWork" id="howItWork">
         <div class="howItWork-container">
           <div class="howItWork-title">
             <p class="sub-title">how it works</p>
@@ -176,7 +176,8 @@
           </div>
         </div>
       </section>
-      <section class="section-meals">
+      <!-- section meals started -->
+      <section class="section-meals" id="meals">
         <div class="section-meals__container text__meal">
           <p class="sub-title">Meals</p>
           <h2 class="main-title">Omnifood AI chooses from 5,000+ recipes</h2>
@@ -295,8 +296,9 @@
           <a href="#">See all recipes &rarr;</a>
         </div>
       </section>
-
-      <section class="section-testimonials">
+      <!-- meals section ended -->
+      <!-- testimonials section started -->
+      <section class="section-testimonials" id="testimonials">
         <div class="customers">
           <div class="Testimonial-header">
             <p class="sub-title">Testimonials</p>
@@ -435,6 +437,62 @@
             />
           </div>
         </div>
+      </section>
+
+      <section class="pricing">
+        <h1 class="sub-title">PRICING</h1>
+        <h1 class="main-title">Eating well without breaking the bank</h1>
+        <div class="pricing__cards">
+          <div class="pricing__cards__starter">
+            <h1 class="sub-title">starter</h1>
+            <h1 class="pricing__title"><span>$</span>399</h1>
+            <p class="pricing__text">per month. That's just $13 per meal!</p>
+            <ul class="list-franchises">
+              <li>
+                <ion-icon name="checkmark-outline"></ion-icon>
+                1 meal per day
+              </li>
+              <li>
+                <ion-icon name="checkmark-outline"></ion-icon>
+                Order from 11am to 9pm
+              </li>
+              <li>
+                <ion-icon name="checkmark-outline"></ion-icon>
+                Delivery is free
+              </li>
+              <li>
+                <ion-icon name="close-outline"></ion-icon>
+              </li>
+            </ul>
+            <button class="btn__cta btn">Start eating well</button>
+          </div>
+          <div class="pricing__cards__complete pricing__cards__starter">
+            <h1 class="sub-title">complete</h1>
+            <h1 class="pricing__title"><span>$</span>649</h1>
+            <p class="pricing__text">per month. That's just $11 per meal!</p>
+            <ul class="list-franchises">
+              <li>
+                <ion-icon name="checkmark-outline"></ion-icon>
+                <strong> 2 meal</strong> per day
+              </li>
+              <li>
+                <ion-icon name="checkmark-outline"></ion-icon>
+                Order <strong>24/7</strong>
+              </li>
+              <li>
+                <ion-icon name="checkmark-outline"></ion-icon>
+                Delivery is free
+              </li>
+              <li>
+                <ion-icon name="checkmark-outline"></ion-icon>
+                Get access to latest recipes
+              </li>
+            </ul>
+            <button class="btn__cta btn">Start eating well</button>
+
+          </div>
+        </div>
+        <p class="pricing__text">Prices include all applicable taxes. You can cancel at any time. Both plans include the following:</p>
       </section>
     </main>
     <!-- JavaScript -->

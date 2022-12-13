@@ -90,9 +90,9 @@ body {
   width: 11.3rem;
 }
 
-.omni-link:focus img {
-  box-shadow: 0 0 0 0.55rem #ecae78;
-}
+/* .omni-link:focus img {
+  fill: 0 0 0 0.55rem #ecae78;
+} */
 
 .nav-bar {
   display: flex;
@@ -700,4 +700,96 @@ ion-icon {
   width: 30rem;
 }
 
-/* ************ Scetion Testimonials Ended ************ */
+/* ************ Section Testimonials Ended ************ */
+/* ************ section pricing started *************** */
+
+.pricing {
+  max-width: 81rem;
+  margin: 5em auto;
+}
+
+.pricing__cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  color: #555;
+  margin: 5rem auto 2.8rem;
+}
+
+.pricing__cards__starter {
+  width: 35%;
+  border: 1px solid #fdf2e9;
+  padding: 3.7rem 3rem;
+  text-align: center;
+  border-radius: 11px;
+}
+
+.pricing__cards__complete {
+  background-color: #fdf2e9;
+  overflow: hidden;
+  position: relative;
+}
+
+.pricing__cards__complete::after {
+  position: absolute;
+  top: 7%;
+  right: -13%;
+  content: 'BEST VALUE';
+  padding: .16rem 2rem;
+  width: 10rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  background-color: #ffd43b;
+  transform: rotate(48deg);
+  color: #333;
+}
+.pricing__title {
+  color: #333;
+  font-size: 4rem;
+  margin: 2rem auto 1rem;
+}
+
+.pricing__text {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.pricing__title span {
+  font-size: 1.9rem;
+  font-weight: 500;
+  margin-inline-end: .6rem;
+}
+
+.list-franchises {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+  list-style-type: none;
+  margin: 3rem auto;
+  font-size: 1.3rem;
+}
+
+.list-franchises li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.list-franchises li ion-icon {
+  font-size: 2rem;
+}
+
+.pricing__cards__starter .btn {
+  font-size: 1.53rem;
+}
+
+.pricing__cards__starter .btn:focus {
+  box-shadow: 0 0 0 0.55rem #ecae78;
+}
+/* ************ section pricing end *************** */

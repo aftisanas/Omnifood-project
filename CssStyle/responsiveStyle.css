@@ -15,6 +15,18 @@
     padding: 9.6rem 3.2rem;
   }
   /* ************* Section Testimonials Ended ************* */
+
+  /* ************* Section Testimonials ************* */
+  .howItWork-container, .pricing {
+    max-width: 70rem;
+    margin: 10rem auto;
+  }
+
+  .main-title {
+    font-size: 2.5em;
+  }
+  /* ************* Section Testimonials Ended ************* */
+
 }
 
 @media screen and (max-width: 68em) {
@@ -125,9 +137,92 @@
   .responsive-nav-bar li a {
     font-size: 2.1rem;
   }
-}
 
 /* ************** how it work responsive section */
+.howItWork-container, .pricing {
+  max-width: 62rem;
+  margin: 10rem auto;
+}
+
+.main-title {
+  font-size: 2.5em;
+}
+
+.howItWork-title {
+  margin: 0 3rem;
+}
+/* ************** how it work responsive section ended*/
+
+/* **************** start pricing responsive section  **************** */
+.pricing__cards {
+  gap: 3rem;
+}
+
+.pricing__cards__starter {
+  width: 45%;
+}
+/* **************** pricing responsive section ended  **************** */
+}
+
+
+@media screen and (max-width: 49em) {
+  html {
+    font-size: 68%;
+  }
+
+  .howItWork-container, .pricing {
+    max-width: 60rem;
+    margin: 10rem auto;
+  }
+
+  .howItWork-step {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sub-title {
+    font-size: 1.7rem;
+  }
+
+
+  .side-one {
+    font-size: 7rem;
+  }
+
+  .side-title {
+    font-size: 1.8rem;
+  }
+
+  .side-text {
+    font-size: 1.4rem;
+  }
+
+  .left-side,
+  .right-side {
+    width: 88%;
+    margin: 5rem auto;
+    justify-content: space-between;
+  }
+
+  .second-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .side-phone {
+    width: 20em;
+    height: 20em;
+    box-shadow: 0px 0px 0px 35px #fdf2e9;
+  }
+
+  .side-phone img {
+    width: 15.2em;
+  }
+
+}
 
 @media screen and (max-width: 41.875em) {
   html {
@@ -140,7 +235,7 @@
   }
   /* ************** Section Testimonials Ended ************** */
 
-  .howItWork-container {
+  .howItWork-container, .pricing {
     width: 90%;
     margin: 10rem auto;
   }
@@ -156,7 +251,7 @@
   }
 
   .main-title {
-    font-size: 3.9rem;
+    font-size: 2.5rem;
   }
 
   .side-one {
@@ -192,7 +287,7 @@
   }
 
   .side-phone img {
-    width: 21.7em;
+    width: 18em;
   }
 
   /* Meals Section */
@@ -207,6 +302,17 @@
   }
 
   /* Ends Meals Section */
+}
+
+@media screen and (max-width: 36.25em) {
+  /* ********* start pricing responsive section  */
+  .pricing__cards {
+    flex-direction: column;
+  }
+
+  .pricing__cards__starter {
+    width: 85%;
+  }
 }
 
 @media screen and (max-width: 30em) {
