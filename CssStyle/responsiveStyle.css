@@ -17,7 +17,8 @@
   /* ************* Section Testimonials Ended ************* */
 
   /* ************* Section Testimonials ************* */
-  .howItWork-container, .pricing {
+  .howItWork-container,
+  .pricing {
     max-width: 70rem;
     margin: 10rem auto;
   }
@@ -26,7 +27,6 @@
     font-size: 2.5em;
   }
   /* ************* Section Testimonials Ended ************* */
-
 }
 
 @media screen and (max-width: 68em) {
@@ -112,7 +112,7 @@
 
   /* t */
   .d-none {
-    display: none;
+    display: none !important;
   }
   .d-block {
     display: block;
@@ -138,39 +138,40 @@
     font-size: 2.1rem;
   }
 
-/* ************** how it work responsive section */
-.howItWork-container, .pricing {
-  max-width: 62rem;
-  margin: 10rem auto;
-}
+  /* ************** how it work responsive section */
+  .howItWork-container,
+  .pricing {
+    max-width: 62rem;
+    margin: 10rem auto;
+  }
 
-.main-title {
-  font-size: 2.5em;
-}
+  .main-title {
+    font-size: 2.5em;
+  }
 
-.howItWork-title {
-  margin: 0 3rem;
-}
-/* ************** how it work responsive section ended*/
+  .howItWork-title {
+    margin: 0 3rem;
+  }
+  /* ************** how it work responsive section ended*/
 
-/* **************** start pricing responsive section  **************** */
-.pricing__cards {
-  gap: 3rem;
-}
+  /* **************** start pricing responsive section  **************** */
+  .pricing__cards {
+    gap: 3rem;
+  }
 
-.pricing__cards__starter {
-  width: 45%;
+  .pricing__cards__starter {
+    width: 45%;
+  }
+  /* **************** pricing responsive section ended  **************** */
 }
-/* **************** pricing responsive section ended  **************** */
-}
-
 
 @media screen and (max-width: 49em) {
   html {
     font-size: 68%;
   }
 
-  .howItWork-container, .pricing {
+  .howItWork-container,
+  .pricing {
     max-width: 60rem;
     margin: 10rem auto;
   }
@@ -184,7 +185,6 @@
   .sub-title {
     font-size: 1.7rem;
   }
-
 
   .side-one {
     font-size: 7rem;
@@ -222,6 +222,10 @@
     width: 15.2em;
   }
 
+  .features-container {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 2.8rem;
+  }
 }
 
 @media screen and (max-width: 41.875em) {
@@ -235,7 +239,8 @@
   }
   /* ************** Section Testimonials Ended ************** */
 
-  .howItWork-container, .pricing {
+  .howItWork-container,
+  .pricing {
     width: 90%;
     margin: 10rem auto;
   }
@@ -302,6 +307,11 @@
   }
 
   /* Ends Meals Section */
+
+  .features-container {
+    grid-template-columns: 1fr;
+    row-gap: 2.8rem;
+  }
 }
 
 @media screen and (max-width: 36.25em) {
