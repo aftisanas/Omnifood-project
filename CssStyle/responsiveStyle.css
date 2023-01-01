@@ -87,6 +87,12 @@
     grid-template-columns: 3fr 2fr;
   }
   /* cta Section Ended */
+  
+  /* **************** footer responsive started **************** */
+  .footer {
+    width: 96%;
+  }
+  /* **************** footer responsive ended **************** */
 }
 
 /* ******************** header responsive section ******************** */
@@ -171,6 +177,29 @@
     width: 45%;
   }
   /* **************** pricing responsive section ended  **************** */
+
+  /* **************** footer responsive started **************** */
+  .footer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .footer .l-side:nth-child(1) {
+    order: 5;
+  }
+  .footer .footer-list:nth-child(2) {
+    order: 4;
+  }
+  .footer .footer-list:nth-child(3) {
+    order: 1;
+  }
+  .footer .footer-list:nth-child(4) {
+    order: 2;
+  }
+  .footer .footer-list:nth-child(5) {
+    order: 3;
+  }
+  /* **************** footer responsive ended **************** */
+
 }
 
 @media screen and (max-width: 49em) {
@@ -294,13 +323,13 @@
   }
 
   .side-phone {
-    width: 28em;
-    height: 28em;
+    width: 22em;
+    height: 22em;
     box-shadow: 0px 0px 0px 35px #fdf2e9;
   }
 
   .side-phone img {
-    width: 18em;
+    width: 16em;
   }
 
   /* Meals Section */
@@ -320,6 +349,8 @@
     grid-template-columns: 1fr;
     row-gap: 2.8rem;
   }
+
+
 }
 
 @media screen and (max-width: 36.25em) {
@@ -331,6 +362,7 @@
   .pricing__cards__starter {
     width: 85%;
   }
+
   /* Section cta Started */
   .cta {
     grid-template-columns: 1fr;
@@ -340,6 +372,12 @@
     grid-row: 1;
   }
   /* Section cta Ended */
+
+  /* **************** footer responsive started **************** */
+  .footer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* **************** footer responsive ended **************** */
 }
 
 @media screen and (max-width: 30em) {

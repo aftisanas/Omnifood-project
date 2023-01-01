@@ -1,5 +1,4 @@
 // nav bar menu event
-
 let barBtn = document.querySelector(".nav-item-menu");
 
 barBtn.addEventListener("click", displayNav);
@@ -13,3 +12,15 @@ function displayNav() {
   faClose.classList.toggle("close-humburger");
   faBar.classList.toggle("d-none");
 }
+
+// sticky nav bar
+const stickyNav = () => {
+  const header = document.querySelector('.header');
+  const sticky = header.offsetTop;
+
+  if (window.pageYOffset >= sticky) {
+    header.classList.toggle('sticky-header')
+  }
+}
+
+stickyNav();
