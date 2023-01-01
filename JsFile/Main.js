@@ -16,11 +16,10 @@ function displayNav() {
 // sticky nav bar
 const stickyNav = () => {
   const header = document.querySelector('.header');
-  const sticky = header.offsetTop;
 
-  if (window.pageYOffset >= sticky) {
-    header.classList.toggle('sticky-header')
-  }
+  window.addEventListener('scroll', () => {
+    header.classList.toggle('sticky-header', window.scrollY > 0);
+  });
 }
 
 stickyNav();
