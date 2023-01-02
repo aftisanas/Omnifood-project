@@ -263,6 +263,12 @@
     grid-template-columns: repeat(2, 1fr);
     row-gap: 2.8rem;
   }
+
+  /* cta section started */
+  .cta-section {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 41.875em) {
@@ -373,9 +379,42 @@
   }
   /* Section cta Ended */
 
+    /* ************* Section Testimonials ************* */
+    .testimonials {
+      grid-template-columns: repeat(1, 1fr);
+      padding: 1rem;
+      width: 100%;
+    }
+    .testimonials > figure {
+      width: 100%;
+    }
+
+    .gallery-imgs {
+      grid-template-columns: repeat(3, 1fr);
+      width: 100%;
+      /* margin: 0 auto; */
+      padding: 1rem;
+    }
+
+    /* ************* Section Testimonials Ended ************* */
+
+    /* cta section */
+    .cta-box {
+      padding: 1rem;
+    }
+
   /* **************** footer responsive started **************** */
   .footer {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: .9rem;
+    position: relative;
+  }
+
+  .footer .l-side {
+    position: absolute;
+    bottom: -15%;
+    right: 0;
+    width: 50%;
   }
   /* **************** footer responsive ended **************** */
 }

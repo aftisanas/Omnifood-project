@@ -653,6 +653,7 @@ ion-icon {
   grid-template-columns: 55fr 45fr;
 }
 .Testimonial-header {
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr;
   justify-content: center;
@@ -662,11 +663,12 @@ ion-icon {
   grid-row: 1;
 }
 .gallery-imgs {
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   padding: 1.3rem;
-  background: #fff;
+  /* background: #fff; */
 }
 .gallery-imgs > div {
   overflow: hidden;
@@ -692,7 +694,7 @@ ion-icon {
 }
 .testimonials {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr); /*1fr 1fr*/
   column-gap: 2.5rem;
   row-gap: 2.5rem;
   grid-row: 1;
@@ -715,7 +717,7 @@ ion-icon {
 }
 .heading-sec {
   font-size: 2rem;
-  width: 30rem;
+  /* width: 30rem; */
 }
 
 /* ************ Section Testimonials Ended ************ */
